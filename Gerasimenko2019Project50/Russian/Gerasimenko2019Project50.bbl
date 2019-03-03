@@ -1,0 +1,17 @@
+\begin{thebibliography}{1}
+
+\bibitem{Ianina_2017}
+Anastasia Ianina, Lev Golitsyn, and Konstantin Vorontsov.
+\newblock Multi-objective topic modeling for exploratory search in tech news.
+\newblock In {\em Communications in Computer and Information Science}, pages
+  181--193. Springer International Publishing, nov 2017.
+
+\bibitem{BigARTM2015}
+Konstantin Vorontsov, Oleksandr Frei, Murat Apishev, Peter Romov, and Marina
+  Dudarenko.
+\newblock Bigartm: open source library for regularized multimodal topic
+  modeling of large collections.
+\newblock In {\em International Conference on Analysis of Images, Social
+  Networks and Texts}, pages 370--381. Springer, 2015.
+
+\end{thebibliography}
