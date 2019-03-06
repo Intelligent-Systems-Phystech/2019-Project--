@@ -1,0 +1,61 @@
+% Encoding: UTF-8
+
+@InProceedings{BigARTM2015,
+  author       = {Vorontsov, Konstantin and Frei, Oleksandr and Apishev, Murat and Romov, Peter and Dudarenko, Marina},
+  title        = {Bigartm: open source library for regularized multimodal topic modeling of large collections},
+  booktitle    = {International Conference on Analysis of Images, Social Networks and Texts},
+  year         = {2015},
+  pages        = {370--381},
+  organization = {Springer},
+}
+
+@Article{vorontsov2015additive,
+  author    = {Vorontsov, Konstantin and Potapenko, Anna},
+  title     = {Additive regularization of topic models},
+  journal   = {Machine Learning},
+  year      = {2015},
+  volume    = {101},
+  number    = {1-3},
+  pages     = {303--323},
+  publisher = {Springer},
+}
+
+@InProceedings{hofmann1999probabilistic,
+  author       = {Hofmann, Thomas},
+  title        = {Probabilistic latent semantic analysis},
+  booktitle    = {Proceedings of the Fifteenth conference on Uncertainty in artificial intelligence},
+  year         = {1999},
+  pages        = {289--296},
+  organization = {Morgan Kaufmann Publishers Inc.},
+}
+
+@Article{El-Kishky2014,
+  author        = {Ahmed El-Kishky and Yanglei Song and Chi Wang and Clare Voss and Jiawei Han},
+  title         = {Scalable topical phrase mining from text corpora},
+  journal       = {Proceedings of the VLDB Endowment},
+  year          = {2014},
+  volume        = {8(3)},
+  pages         = {305--316},
+  __markedentry = {[nikgerasimenko:6]},
+  abstract      = {While most topic modeling algorithms model text corpora with unigrams, human interpretation often relies on inherent grouping of terms into phrases. As such, we consider the problem of discovering topical phrases of mixed lengths. Existing work either performs post processing to the inference results of unigram-based topic models, or utilizes complex n-gram-discovery topic models. These methods generally produce low-quality topical phrases or suffer from poor scalability on even moderately-sized datasets. We propose a different approach that is both computationally efficient and effective. Our solution combines a novel phrase mining framework to segment a document into single and multi-word phrases, and a new topic model that operates on the induced document partition. Our approach discovers high quality topical phrases with negligible extra cost to the bag-of-words topic model in a variety of datasets including research publication titles, abstracts, reviews, and news articles.},
+  date          = {2014-06-24},
+  eprint        = {http://arxiv.org/abs/1406.6312v2},
+  eprintclass   = {cs.CL},
+  eprinttype    = {arXiv},
+  file          = {:http\://arxiv.org/pdf/1406.6312v2:PDF},
+  journaltitle  = {Proceedings of the VLDB Endowment, Vol. 8(3), pp. 305 - 316, 2014},
+  keywords      = {cs.CL, cs.IR, cs.LG},
+}
+
+@InCollection{Ianina_2017,
+  author    = {Anastasia Ianina and Lev Golitsyn and Konstantin Vorontsov},
+  title     = {Multi-objective topic modeling for exploratory search in tech news},
+  booktitle = {Communications in Computer and Information Science},
+  publisher = {Springer International Publishing},
+  year      = {2017},
+  pages     = {181--193},
+  month     = {nov},
+  doi       = {10.1007/978-3-319-71746-3_16},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

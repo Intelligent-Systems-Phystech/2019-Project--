@@ -1,5 +1,10 @@
 \begin{thebibliography}{1}
 
+\bibitem{El-Kishky2014}
+Ahmed El-Kishky, Yanglei Song, Chi Wang, Clare Voss, and Jiawei Han.
+\newblock Scalable topical phrase mining from text corpora.
+\newblock {\em Proceedings of the VLDB Endowment}, 8(3):305--316, 2014.
+
 \bibitem{Ianina_2017}
 Anastasia Ianina, Lev Golitsyn, and Konstantin Vorontsov.
 \newblock Multi-objective topic modeling for exploratory search in tech news.
