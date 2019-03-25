@@ -3,44 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Gerasimenko2019Project50.aux
 The style file: plain.bst
 Database file #1: Gerasimenko2019Project50.bib
-You've used 3 entries,
+You've used 4 entries,
             2118 wiz_defined-function locations,
-            520 strings with 4765 characters,
-and the built_in function-call counts, 1498 in all, are:
-= -- 153
-> -- 74
+            527 strings with 4896 characters,
+and the built_in function-call counts, 1831 in all, are:
+= -- 188
+> -- 87
 < -- 2
-+ -- 29
-- -- 26
-* -- 108
-:= -- 235
-add.period$ -- 11
-call.type$ -- 3
-change.case$ -- 22
++ -- 34
+- -- 30
+* -- 134
+:= -- 290
+add.period$ -- 14
+call.type$ -- 4
+change.case$ -- 27
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 58
-empty$ -- 109
-format.name$ -- 26
-if$ -- 325
+cite$ -- 4
+duplicate$ -- 69
+empty$ -- 136
+format.name$ -- 30
+if$ -- 393
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 3
-newline$ -- 18
-num.names$ -- 6
-pop$ -- 26
+int.to.str$ -- 4
+missing$ -- 4
+newline$ -- 23
+num.names$ -- 8
+pop$ -- 29
 preamble$ -- 1
-purify$ -- 19
+purify$ -- 23
 quote$ -- 0
-skip$ -- 43
+skip$ -- 51
 stack$ -- 0
-substring$ -- 104
-swap$ -- 22
+substring$ -- 134
+swap$ -- 23
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 12
+type$ -- 16
 warning$ -- 0
-while$ -- 14
-width$ -- 4
-write$ -- 37
+while$ -- 18
+width$ -- 5
+write$ -- 48
