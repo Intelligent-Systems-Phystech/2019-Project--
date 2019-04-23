@@ -3,8 +3,10 @@
 \usepackage[russian]{babel}
 \usepackage{amsmath,mathrsfs,mathtext}
 \usepackage{graphicx, epsfig}
+\usepackage{placeins}
 \usetheme{Warsaw}%{Singapore}%{Warsaw}%{Warsaw}%{Darmstadt}
 \usecolortheme{sidebartab}
+\setlength\headheight{10pt}
 \definecolor{beamer@blendedblue}{RGB}{15,120,80}
 %----------------------------------------------------------------------------------------------------------
 \title[\hbox to 56mm{Тематический поиск схожих дел\hfill\insertframenumber\,/\,\inserttotalframenumber}]
@@ -129,6 +131,24 @@ R(\Phi)=-\tau \sum_{t \in T}\sum_{s \in T\backslash t}\sum_{w \in W} \phi_{wt}\p
 \end{frame}
 %----------------------------------------------------------------------------------------------------------
 \begin{frame}{Результаты вычислительного эксперимента \\*Внутренние критерии качества.}
+   %\includegraphics[width=0.7\textwidth]{fig/ErrorFunction}
+   %\\ Some comments on the plot
+\vspace{0.01em}
+\begin{figure}
+      \vspace{0.01em}
+        Зависимости перплексии и разреженности распределений терминов в темах \begin{tabular}{cc}
+        \includegraphics[width=5cm]{perplexity}
+         &
+         \includegraphics[width=5cm]{sparseTheta}
+         \end{tabular}
+%\caption{Зависимости перплексии и разреженности распределений терминов в темах.}
+\label{fg:Example}
+\end{figure}
+
+
+
+%\includegraphics[width=0.5\textwidth]{sparseTheta}
+%\\ Зависимости перплексии и разреженности распределений терминов в темах.
 \end{frame}
 %----------------------------------------------------------------------------------------------------------
 \begin{frame}{Результаты вычислительного эксперимента \\*Внешние критерии качества.}
