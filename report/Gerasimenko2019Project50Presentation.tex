@@ -131,8 +131,6 @@ R(\Phi)=-\tau \sum_{t \in T}\sum_{s \in T\backslash t}\sum_{w \in W} \phi_{wt}\p
 \end{frame}
 %----------------------------------------------------------------------------------------------------------
 \begin{frame}{Результаты вычислительного эксперимента \\*Внутренние критерии качества.}
-   %\includegraphics[width=0.7\textwidth]{fig/ErrorFunction}
-   %\\ Some comments on the plot
 \vspace{0.01em}
 \begin{figure}
       \vspace{0.01em}
@@ -141,17 +139,37 @@ R(\Phi)=-\tau \sum_{t \in T}\sum_{s \in T\backslash t}\sum_{w \in W} \phi_{wt}\p
          &
          \includegraphics[width=5cm]{sparseTheta}
          \end{tabular}
-%\caption{Зависимости перплексии и разреженности распределений терминов в темах.}
 \label{fg:Example}
 \end{figure}
-
-
-
 %\includegraphics[width=0.5\textwidth]{sparseTheta}
 %\\ Зависимости перплексии и разреженности распределений терминов в темах.
 \end{frame}
 %----------------------------------------------------------------------------------------------------------
 \begin{frame}{Результаты вычислительного эксперимента \\*Внешние критерии качества.}
+\begin{block}{Сравнение с базовыми алгоритмами}
+	Для оценки качества модели были использованы в качестве базовых алгоритмов  
+    \begin{itemize}
+        \item TF-IDF по словам 
+        \item TF-IDF по выделенным из текста ссылкам на нормативно-правовые акты (НПА), например, \\*<<пункт 3 статьи 6 УК РФ>>.
+    \end{itemize} 
+    \end{block}
+
+\begin{table}[H]
+% \caption{\label{tab:summary}Сравнение показателей внешнего критерия качества.}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Модель & ARI & AMI\\
+\hline
+TF-IDF по словам & 10\% & 12.5\% \\
+\hline
+TF-IDF по ссылкам на НПА & 17\% & 22\% \\
+\hline
+АРТМ & 37.5\% & 42\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
 \end{frame}
 %----------------------------------------------------------------------------------------------------------
 \begin{frame}{Заключение}
